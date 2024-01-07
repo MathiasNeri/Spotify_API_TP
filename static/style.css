@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h1 {
+    text-align: center;
+    color: #1db954; 
+    font-size: 28px;
+}
+
+.album-info {
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.album-info h2 {
+    margin-top: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+.album-cover {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
+.album-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #b3b3b3;
+}
+
+.album-info a {
+    color: #1db954;
+    text-decoration: none;
+}
+
+.album-info a:hover {
+    text-decoration: underline;
+}
+
+
+
+.TrackInfo {
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.TrackInfo h2 {
+    text-align: center;
+}
+
+.TrackInfo p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.TrackInfo img {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.TrackInfo a {
+    color: #1db954;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.TrackInfo a:hover {
+    text-decoration: underline;
+}
+

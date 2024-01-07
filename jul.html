@@ -1,0 +1,28 @@
+{{define "jul"}}
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/static/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tous les albums de Jul</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tous les albums de Jul</h1>
+        {{range .}}
+        <div class="album-info">
+            <h2>{{.Name}}</h2>
+            <div><img src="{{.CoverImage}}" alt="Album Cover" class="album-cover"></div>
+            <p><strong>Date de sortie :</strong> {{.ReleaseDate}}</p>
+            <p><strong>Nombre de pistes :</strong> {{.NumberOfSongs}}</p>
+            <p><strong>Lien Spotify:</strong> <a href="{{.SpotifyLink}}">Listen on Spotify</a></p>
+
+        </div>
+        {{end}}
+    </div>
+</body>
+
+</html>
+{{end}}

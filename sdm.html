@@ -1,0 +1,24 @@
+{{define "sdm"}}
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/static/style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Informations sur "Bolide Allemand" de SDM</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Informations sur "Bolide Allemand" de SDM</h1>
+        <div class="TrackInfo">
+            <h2>{{.Title}}</h2>
+            <div><img src="{{.AlbumCover}}" alt="Album Cover" class="SDMcover"></div>
+            <p><strong>Album :</strong> {{.AlbumName}}</p>
+            <p><strong>Artiste :</strong> {{.ArtistName}}</p>
+            <p><strong>Date de sortie :</strong> {{.ReleaseDate}}</p>
+            <p><strong>Lien Spotify: </strong><a href="{{.SpotifyLink}}">Listen on Spotify</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
+{{end}}
