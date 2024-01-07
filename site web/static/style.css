@@ -12,6 +12,22 @@ body {
     padding: 20px 0;
 }
 
+.container a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: 1px solid #1db954;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #1db954;
+}
+
+.container a:hover {
+    background-color: #333;
+}
+
 h1 {
     text-align: center;
     color: #1db954; 
